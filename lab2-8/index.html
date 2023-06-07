@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Delivery everywhere">
+    <meta name="author" content="Yakin Serhii" />
+    <title>Головна</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/js.js" async></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header"></header>
+        <div class="main">
+            <div class="main-page-wrapper">
+                <div class="sidebar" id="sidebar">
+                    <nav>
+                        <div class="item"><a class="nav__link" href="Information.html">Історія доставки</a></div>
+                        <div class="item"><a class="nav__link" href="News.html">Новини</a></div>
+                        <div class="item"><a class="nav__link" href="FAQ.html">FAQ</a></div>
+                        <div class="item"><a class="nav__link" href="Table.html">Таблицi</a></div>
+                        <button id="myBtn" class="button-feedback">Feedback</button>
+                        <button onclick="dialogueWithUser()" class="button-feedback">Опитування</button>
+                        
+                    </nav>
+                </div>
+                <div class="content" id="content">
+                    <div class="big_word" id="big_word">
+                        <a href="information.html">Компанія Express Delivery</a>
+                    </div>
+                    <h2><a href="images/1.jpeg" target="_blank" ><img src="images/1.jpeg" class="content-img" id="imgMainPage"></a>
+                        <p>У світі, де швидкість і зручність є головними критеріями сучасного життя, доставка стала
+                            однією з найважливіших послуг для задоволення наших потреб. І саме в цьому контексті
+                            з'являється компанія, що перевертає уявлення про доставку, трансформуючи її в елегантну та
+                            надійну мистецтво.
+                        </p>
+                        <p>
+                            Ласкаво просимо в світ, де прискорення, надійність та якість перетворюються на неперевершені
+                            стандарти. Ми - відома компанія, що займається доставкою, та ми прагнемо досягти найвищих
+                            вершин задоволення наших клієнтів. Наше завдання - зробити ваше життя <i> простішим</i> та
+                            більш <i>комфортним</i>, даруючи вам свободу від турбот про доставку.
+                        </p>
+                        <p>
+                            У нашій компанії ми розуміємо, що кожна доставка має бути бездоганною. Тому ми збираємо
+                            найкращу
+                            команду професіоналів, які володіють високим рівнем експертизи та віддані своїй роботі. Вони
+                            дбайливо відносяться до кожного замовлення, забезпечуючи його швидку та безпечну доставку.
+                            Наші
+                            кур'єри - це справжні вірні помічники, що ніколи не забувають про терміни та якість
+                            обслуговування.
+                        </p>
+                        <p>
+                            Ми також розуміємо, що кожен клієнт унікальний і має власні потреби. Тому ми пропонуємо
+                            широкий спектр послуг, щоб задовольнити різноманітні запити та вимоги наших клієнтів.
+                            Незалежно від того, чи потрібно вам доставити велику вантажівку, чи невелику посилку, ми
+                            знаходимо оптимальне рішення для кожного випадку.
+                        </p>
+                    </h2>
+                    <h1>Цілі компанії:</h1>
+                        <h2>
+                            <ul id="myList">
+                                <li data-action="action1">Найшвидша та Найбезпечніша доставка</li>
+                                <li data-action="action2">Найкращий сервіс</li>
+                                <li data-action="action3">Задоволені клієнти</li>
+                            </ul>
+                        </h2>
+                        <div id="myMenu">
+                            <button data-action="action1" class="button-feedback">Дія 1</button>
+                            <button data-action="action2" class="button-feedback">Дія 2</button>
+                            <button data-action="action3" class="button-feedback">Дія 3</button>
+                          </div>
+
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1>Feedback form</h1>
+
+                            <form>
+                                <b><label for="name">Name:</label><br></b>
+                                <input type="text" id="name" name="name"><br>
+                                <b><label for="feedback">Feedback:</label><br></b>
+                                <textarea id="feedback" name="feedback" style="max-width: 27vw;"></textarea><br>
+                                <input type="submit" id="submitBtn" value="submit" class="button-feedback">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+
+</body>
+
+</html>

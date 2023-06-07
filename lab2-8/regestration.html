@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Delivery everywhere">
+    <meta name="author" content="Yakin Serhii" />
+    <title>Головна</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/js.js" async></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header_menu">
+                <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                <div class="header_links">
+                    <a href="index.html" class="header_links_link">Головна </a>
+                    <a href="#" class="header_links_link">Увійти </a>
+                    <a href="regestration.html" class="header_links_link">Реєстрація </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <form id="registerForm" class="registerForm">
+                <label for="username">Нікнейм:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="email">Пошта:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="password">Пароль:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" value="Submit">
+            </form>
+            <table id="dataTable" class="newTable">
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <div class="footer_links">
+                <a href="https://t.me/Yaakinn" class="fa-brands fa-telegram"></a>
+                <a href="#" class="fa-solid fa-phone"></a>
+                <a href="#" class="fa-solid fa-envelope"></a>
+                <a href="#" class="fa-brands fa-whatsapp"></a>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
